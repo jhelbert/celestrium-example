@@ -1,4 +1,1 @@
-celestrium-example
-==================
-
-Barebones implementation of an interface which uses Celestrium.
+Here's an extremely simple interface which uses Celestrium.

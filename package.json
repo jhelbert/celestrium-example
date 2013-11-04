@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "coffee-script": "*",
+    "node-static": "*"
+  },
+  "scripts": {
+    "start": "bash server.sh"
+  }
+}
