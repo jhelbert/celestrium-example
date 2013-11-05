@@ -6,7 +6,7 @@ Here's an extremely simple interface which uses [Celestrium](https://github.com/
 git clone --recursive https://github.com/jdhenke/celestrium-example.git
 cd celestrium-example
 npm install
-. server.sh
+sh server.sh
 ```
 
 1. Go to [http://localhost:8080/index.html](http://localhost:8080/index.html)
@@ -31,3 +31,11 @@ You should see an example Graph with nodes A, B and C with a strong link between
 It extends Celestrium's `DataProvider` plugin to tell Celestrium how to dynamically bring in data.
 
 **See the source for more details.**
+
+## Cooler Interface
+
+Run the server and go to [http://localhost:8080/random.html](http://localhost:8080/random.html) to see a randomly generated graph and use some cool plugins.
+
+![image](https://f.cloud.github.com/assets/1418690/1470986/0924b8ec-45d0-11e3-8fb5-059e00b4a34e.png)
+
+Hint: try sliding the white line on the chart as well.
