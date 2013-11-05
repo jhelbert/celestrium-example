@@ -30,4 +30,4 @@ You should see an example Graph with nodes A, B and C with a strong link between
 - `www/ExampleDataProvider.coffee` is the only plugin this example interface defines.
 It extends Celestrium's `DataProvider` plugin to tell Celestrium how to dynamically bring in data.
 
-**See the above files for the more details.**
+**See the source for more details.**
