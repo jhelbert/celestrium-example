@@ -32,9 +32,9 @@ It extends Celestrium's `DataProvider` plugin to tell Celestrium how to dynamica
 
 **See the source for more details.**
 
-## Better Interface with Cooler Plugins
+## Visualization of a Random Graph
 
-Run the server and go to [http://localhost:8080/random.html](http://localhost:8080/random.html) to see a randomly generated graph and use some cool plugins.
+Run this repo's server and go to [http://localhost:8080/random.html](http://localhost:8080/random.html) to see a randomly generated graph and use some cool plugins.
 
 ![image](https://f.cloud.github.com/assets/1418690/1470986/0924b8ec-45d0-11e3-8fb5-059e00b4a34e.png)
 
