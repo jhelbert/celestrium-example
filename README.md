@@ -9,7 +9,7 @@ npm install
 sh server.sh
 ```
 
-1. Go to [http://localhost:8080/index.html](http://localhost:8080/index.html)
+1. Now, go to [http://localhost:8080/index.html](http://localhost:8080/index.html)
 2. Click the node that appears
 3. Type `+` to dynamically bring in other nodes.
 
