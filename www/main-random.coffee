@@ -21,6 +21,7 @@ require ["Celestrium", "local/PhoneticAlphabet"],
     "LinkDistribution": {}
     "NodeSearch":
       local: PhoneticAlphabet
+    "ContextMenu": {}
     "local/RandomDataProvider": {}
 
   Celestrium.init plugins
