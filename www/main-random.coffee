@@ -17,7 +17,6 @@ require ["Celestrium", "local/PhoneticAlphabet"],
     "GraphView": {}
     "NodeSelection": {}
     "Sliders": {}
-    "ContextMenu": {}
     "ForceSliders": {}
     "LinkDistribution": {}
     "NodeSearch":
