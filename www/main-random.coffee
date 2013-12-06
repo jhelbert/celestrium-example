@@ -34,5 +34,6 @@ require ["Celestrium", "local/PhoneticAlphabet"],
     # this allows all link strengths to be visible
     instances["GraphView"].getLinkFilter().set("threshold", 0)
 
-    #ContextMenu.addMenuOption "Expand Nodes", dataProvider.addRelatedNodes, dataProvider
+    ContextMenu = instances["ContextMenu"]
+    ContextMenu.renderMenu()
 
