@@ -17,11 +17,23 @@ require ["Celestrium", "local/PhoneticAlphabet"],
     "GraphView": {}
     "NodeSelection": {}
     "Sliders": {}
+    "ContextMenu": {}
     "ForceSliders": {}
     "LinkDistribution": {}
     "NodeSearch":
       local: PhoneticAlphabet
-    "ContextMenu": {}
-    "local/RandomDataProvider": {}
 
-  Celestrium.init plugins
+    "local/RandomDataProvider": {}
+    "ContextMenu": {}
+  Celestrium.init plugins, (instances) ->
+
+    # this prepopulates the graph with the "B" node
+
+
+    # this allows all link strengths to be visible
+    instances["GraphView"].getLinkFilter().set("threshold", 0)
+    dataProvider = instances["local/RandomDataProvider"]
+    ContextMenu = instances["ContextMenu"]
+    #ContextMenu.addMenuOption "Nodes Selected", ContextMenu.TestOption, ContextMenu
+    ContextMenu.addMenuOption "Expand Nodes", dataProvider.addRelatedNodes, dataProvider
+    ContextMenu.renderMenu()
