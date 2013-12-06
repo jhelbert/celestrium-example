@@ -27,13 +27,6 @@ require ["Celestrium", "local/PhoneticAlphabet"],
     "local/RandomDataProvider": {}
 
   Celestrium.init plugins, (instances) ->
-
-    # this prepopulates the graph with the "B" node
-
-
-    # this allows all link strengths to be visible
-    instances["GraphView"].getLinkFilter().set("threshold", 0)
-
     ContextMenu = instances["ContextMenu"]
     ContextMenu.renderMenu()
 
